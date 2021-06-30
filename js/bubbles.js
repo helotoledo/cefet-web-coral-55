@@ -1,6 +1,6 @@
-const TEMPO_MINIMO = 1000;    // 1s em milissegundos
-const TEMPO_VARIAVEL = 3000;  // 3s
-const DURACAO = 5000;         // 5s
+const TEMPO_MINIMO = 100;    // 0,1s
+const TEMPO_VARIAVEL = 2000;  // 2s
+const DURACAO = 4000;         // 4s
 const bolhaEl = carregaUmaImagem('images/bolha.png');
 
 function carregaUmaImagem(path) {
@@ -51,12 +51,6 @@ function criaUmaBolha() {
   setTimeout(criaUmaBolha, proximaBolhaDaqui);
 }
 
-
-
-
 criaUmaBolha();
-
-
-
 
 criaUmaBolha();
